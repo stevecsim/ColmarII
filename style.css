@@ -1,0 +1,168 @@
+/* UNIVERSAL STYLES */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 14px;
+}
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: grey;
+     }
+a:hover{
+    color: silver;
+}
+a:active{
+    color: slategray;
+}
+h1 {
+     font-weight: 900;
+}
+ .section-title {
+    text-align: center;
+    width: 100%;
+       
+} 
+
+/* HEADER SECTION */
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 64px;
+    padding-right: 24px;
+    background-color: white;
+} 
+header img {
+    height: 32px;
+    width: 32px;
+    padding: 10px 24px;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span{
+    display: inline-block;
+    padding: 16px 24px;
+}
+/* TOP  BANNER SECTION */
+#banner {
+   display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+    padding-right: 24px;
+    clear: both;
+    }
+#banner img {
+    padding: 32px 24px;
+    width: 60%;
+}
+/*  BUTTON */
+.styled{
+    border: 0;
+    padding: 0 20px;
+    width: 400px;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+   }
+.styled:hover{
+    background-color: gray;
+    border: 0;
+    }
+.styled:active{
+background-color: white;
+color: black;
+border: 1px;
+}
+/* ORIENTATION SECTION */
+
+.main{
+    display: flex;
+    width: 100%;
+    
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 16px;
+  }
+.main-image {
+    padding: 16px 24px;
+}
+.main-text {
+    text-align: left;
+    padding: 16px 24px;
+}
+
+
+.right-container {
+   width: 40%;
+   padding: 32px 24px;
+    }
+.top {
+    padding: 18px 18px;
+    background-color: white;
+    height: 225px;
+    }
+.middle {
+    padding: 18px 18px;
+    background-color: whitesmoke;
+    height: 225px;
+    }
+.bottom {
+    padding: 18px 18px;
+    background-color: lightgrey;
+    height: 225px;
+    }
+
+.right-container img{
+   float: left;
+   margin: 0px 15px;
+   width: 200px;
+   height: auto;
+   }
+.right-container .description {
+   display: block;
+   width: 100%;
+   }
+.read {
+    color: blue;
+}
+/*  COURSES */
+.learning {
+    display: flex;
+    background-color: lightgrey;
+    width: 100%;
+  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   padding: 32px 0px;
+}
+ .learning .course-container {
+     height: 400px;
+     width: 400px;
+     background-color: white;
+     padding: 32px;
+     flex-wrap: wrap;
+     }
+.course-container img {
+   width: 400px;
+   height: auto;
+}
+
+footer span {
+    padding: 0px 20px;
+    color: silver;
+
+}
+
